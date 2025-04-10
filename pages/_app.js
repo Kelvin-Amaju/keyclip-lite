@@ -1,0 +1,16 @@
+import Head from 'next/head';
+import '@/styles/globals.css'
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+    <Head>
+      <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Audiowide&family=Boldonse&family=Bowlby+One&family=Goldman:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Russo+One&family=Zen+Dots&display=swap" 
+      rel="stylesheet" />
+    </Head>
+    <Component {...pageProps} />
+    </>
+  ) ;
+}
+
+export default MyApp; 
