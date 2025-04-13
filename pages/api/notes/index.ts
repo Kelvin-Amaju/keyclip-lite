@@ -64,7 +64,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         try {
           const summaryResponse = await axios.post(
             process.env.NODE_ENV === "production"
-              ? process.env.SUMMARIZE_API_URL || "https://your-production-url/api/notes/summarize"
+              ? "https://keyclip-lite.vercel.app/api/notes/summarize"
               : "http://localhost:3000/api/notes/summarize",
             { content },
             { timeout: 10000 }

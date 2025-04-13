@@ -17,7 +17,7 @@ export default function Header() {
 
             {isModalOpen && (
                 <div className='fixed inset-0 bg-opacity-20 backdrop-blur-sm flex items-center justify-center z-50'>
-                    <div className='bg-white p-6 rounded-lg max-w-md w-full textarea'>
+                    <div className='bg-gray-100 bg-opacity-20 backdrop-blur-lg p-6 rounded-lg max-w-md w-full textarea border-10 border-indigo-600'>
                         <h2 className='text-xl font-bold text-gray-950 mb-4'>Coming Soon!</h2>
                         <p className='text-gray-900 mb-6 title-paragraph text-2xl'>
                             We're working on exciting new Pro features. Stay tuned for updates!
