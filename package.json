@@ -9,14 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@google/genai": "^0.8.0",
+    "@google/generative-ai": "^0.24.0",
     "axios": "^1.8.4",
     "framer-motion": "^12.6.3",
     "lucide-react": "^0.487.0",
     "mongoose": "^8.13.2",
     "next": "15.2.5",
+    "node-cache": "^5.1.2",
     "openai": "^4.93.0",
+    "rate-limiter-flexible": "^7.0.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

@@ -56,11 +56,15 @@ body {
 /* Fonts for texts */
 .title-text {
   font-family: "Bowlby One", sans-serif;
-  /*font-weight: 400;
-  font-style: normal;*/
+  font-weight: 400;
+  font-style: normal;
 }
 
 .textarea {
+  border-radius: 30px;
+}
+
+.summary {
   border-radius: 30px;
 }
 
@@ -190,4 +194,30 @@ body {
 .text-modal {
   border-radius: 15px;
   border: 1px solid white;
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #171e29; /* Dark track - Tailwind's gray-800 */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #39404b; /* Darker thumb - Tailwind's gray-700 */
+  border-radius: 8px;
+  border: 2px solid #1f2937; /* Match track for padding illusion */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6b7280; /* Lighter gray on hover */
+}
+
+/* Firefox support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 #1f2937;
 }
