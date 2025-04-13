@@ -5,11 +5,11 @@ export default function Header() {
 
     return (
         <div className='w-full p-4 shadow-sm mb-5 flex justify-between items-center'>
-            <h1 className='title-text text-left text-2xl text-gray-800 mx-10'>
-                AI <span className="text-indigo-600">Summary</span> Lite
+            <h1 className='title-text text-left text-2xl sm:text-1xl text-gray-800'>
+                AI <span className="text-indigo-600">KeyClip</span>
             </h1>
             <button
-                className='bg-indigo-600 text-white px-4 py-2 font-bold rounded-md summary hover:bg-indigo-700 transition mr-10'
+                className='bg-indigo-600 text-white px-4 py-2 font-bold rounded-md summary hover:bg-indigo-700 transition mr-1'
                 onClick={() => setIsModalOpen(true)}
             >
                 Go Pro
