@@ -1,5 +1,4 @@
 ### Updated README.md
-Here’s the revised README for **KeyClip**, incorporating the search fix, mobile copy fix, and API limit measures. It’s detailed, covering all aspects of the app.
 
 ```markdown
 # KeyClip
